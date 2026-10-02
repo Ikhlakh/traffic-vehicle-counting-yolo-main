@@ -1,0 +1,14 @@
+# Chặn bản build phần mềm 9GB
+app/TrafficAISystem/
+*.exe
+
+# Chặn video nặng và dữ liệu ảnh
+vid/
+data/
+runs/
+outputs/
+
+# Chặn file tạm hệ thống
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
